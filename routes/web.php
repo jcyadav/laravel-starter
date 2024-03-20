@@ -27,7 +27,7 @@ Route::get('/test-mail',function(){
     $message = "Testing mail";
 
     \Mail::raw('Hi, welcome!', function ($message) {
-      $message->to('ajayydavex@gmail.com')
+      $message->to('jessy@gmail.com')
         ->subject('Testing mail');
     });
 
